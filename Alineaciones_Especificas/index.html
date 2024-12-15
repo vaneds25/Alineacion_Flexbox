@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alineaciones Específicas </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Alinear un solo elemento de manera diferente a los demás (align-self)
+Con Flexbox, es posible alinear un elemento hijo de manera 
+diferente al resto dentro del mismo contenedor usando align-self. 
+Esto se aplica cuando tienes un elemento que debe destacarse o 
+alinearse de una manera diferente por razones de diseño.
+
+Ejemplo:
+Objetivo: Alinear un solo cuadro al final del eje cruzado,
+ mientras los otros cuadros permanecen alineados al inicio.
+     -->
+
+
+     <div class="flex-container">
+
+        <div class="item">1</div>
+      
+        <div class="item special-item">2</div>
+      
+        <div class="item">3</div>
+      
+      </div>
+
+
+      <!-- Distribuir elementos con un espacio específico entre
+        ellos (space-between, space-around, space-evenly)
+Flexbox facilita la creación de distribuciones uniformes
+ con espacios controlados entre elementos. Puedes usar justify-content 
+ para definir cómo se distribuyen los elementos a lo largo del eje principal.
+
+Ejemplo:
+Objetivo: Distribuir los elementos con espacios uniformes entre ellos. -->
+
+<div class="flex-container2">
+
+    <div class="item2">1</div>
+  
+    <div class="item2">2</div>
+  
+    <div class="item2">3</div>
+  
+    <div class="item2">4</div>
+  
+  </div>
+
+<!-- ECentrar un elemento en un contenedor de tamaño variable
+Uno de los retos comunes en CSS es centrar un elemento tanto 
+horizontal como verticalmente dentro de un contenedor, especialmente 
+si el tamaño del contenedor no es fijo.
+
+Con Flexbox, puedes lograr este objetivo de manera sencilla 
+combinando justify-content y align-items.
+
+Ejemplo:
+Objetivo: Centrar un cuadro dentro de un contenedor grande. -->
+
+<div class="flex-container3">
+
+    <div class="item3">Centrado</div>
+  
+  </div>
+
+
+<!-- Crear distribuciones simétricas y asimétricas
+Flexbox también es ideal para crear diseños más complejos con distribuciones
+ simétricas o asimétricas. Puedes usar flex-grow, flex-shrink, y order
+  para controlar el tamaño y el orden de los elementos.
+
+Ejemplo:
+Objetivo: Crear un diseño con elementos de diferentes tamaños, 
+donde uno de los elementos se destaque más que los demás.
+  
+-->
+
+
+<div class="flex-container4">
+
+    <div class="item4">1</div>
+  
+    <div class="item large-item4">2</div>
+  
+    <div class="item4">3</div>
+  
+  </div>
+
+
+
+
+
+
+
+</body>
+</html>
